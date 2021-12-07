@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Paulina Różecka">
+    <meta name="description" content="Skuteczna dieta w prosty sposób! Kompleksowa aplikacja dietetyczna - co tydzień nowe, urozmaicone menu dostosowane do twoich potrzeb. Stała opieka dietetyka!">
+    <meta name="title" content="DietFood - aplikacja dietetyczna">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DietFood-wersja demo</title>
+    <script src="https://kit.fontawesome.com/2ab75aa2cf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/all/all.css">
+    <link rel="stylesheet" href="/css/account/account.css">
+</head>
+<body>
+
+<div class="loader">   
+     <div class="lds-grid"> 
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+         <div></div>
+      </div> 
+    </div>
+
+<nav>
+    <ul class='nav-ul'>
+        <li><img src="/img/DF.png"> </li>
+        <li><a href='/html/account.html'>Home</a></li>
+        <li><a href='/html/choose.html'>Twój <br>plan dietetyczny</a></li>
+        <li><a href='/html/measure.html'>Twoje <br>pomiary</a></li>
+        <li><a href='/html/motivation.html'>Twoja <br>motywacja</a></li>
+        <li><a href='/html/shop.html'>Zamów <br>dietę</a></li>
+    </ul>
+
+    <div class="mobile">
+
+         <img src="/img/DF.png">
+         <i class="fas fa-bars"></i>
+         <div class='mobile-box'>
+              <ul class='nav-ul-mobile'>
+                 <li><a href='/html/account.html'>Home</a></li>
+                 <li><a href='/html/choose.html'>Twój <br>plan dietetyczny</a></li>
+                 <li><a href='/html/measure.html'>Twoje <br>pomiary</a></li>
+                 <li><a href='/html/motivation.html'>Twoja <br>motywacja</a></li>
+                 <li><a href='/html/shop.html'>Zamów <br>dietę</a></li>
+              </ul>
+         </div>
+
+    </div>
+
+     <div> 
+         <i class="fas fa-user-circle"></i>
+         <div class='profile'>
+             <ul class="profile-ul">
+                  <li><i class="far fa-id-badge"></i> <a href="/html/profile.html">profil</a> </li>
+                  <li><i class="fas fa-history"></i> <a href='/html/history.html'>historia</a></li>
+                  <li><i class="fas fa-sign-out-alt"></i> <a href="/html/login.html">wyloguj </a> </li>
+             </ul>
+          </div>
+      </div>   
+
+</nav>
+
+<section class='first-section'>
+
+    <div class='container'>    
+
+         <div class="hello">      
+             <p class='hello-user'>Witaj,</p>
+             <p class="name">Drogi użytkowniku</p>
+         </div>
+    
+        <div class='direction'>
+
+             <div class='round'>
+                 <i class="fas fa-plus"> </i>
+             </div>
+             
+             <p>Twój cel:</p>
+             <p class='no-aim'> dodaj cel</p>
+
+             <div class="area">
+                 <input type="text" class="textArea">
+                 <i class="fas fa-check"></i>
+                 <i class="fas fa-arrow-left"></i>
+             </div> 
+
+             <ul class='aim'>
+                 <li></li>
+             </ul>
+         </div>
+
+        
+        <div class="user-result">
+            <p>Obecne BMI:</p>
+        </div>
+    </div>    
+
+</section>
+
+<script src="/js/account.js"></script>
+
+</body>

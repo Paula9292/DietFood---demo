@@ -1,0 +1,83 @@
+.day-menu {
+  height: 150px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.info_select_dich {
+  top: 60%;
+  width: 95%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.meal {
+  height: 60px;
+}
+
+.daily-meals {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-left: 10px;
+  z-index: 10000;
+}
+
+.dish {
+  width: 220px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.foodPhoto {
+  width: 161px;
+  height: 119px;
+}
+
+.shadow {
+  height: 119px;
+  margin: 10px;
+}
+
+.dish-animation {
+  display: flex;
+  visibility: visible;
+  animation: mealOn-mobile 0.5s linear;
+}
+
+.dish-animationOff {
+  animation: mealOff-mobile 0.1s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes mealOn-mobile {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    height: 400px;
+  }
+  100% {
+    height: 440px;
+  }
+}
+
+@keyframes mealOff-mobile {
+  0% {
+    height: 440px;
+  }
+  99% {
+    height: 400px;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*# sourceMappingURL=selectMobile.css.map */

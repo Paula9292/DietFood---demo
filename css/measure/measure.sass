@@ -1,0 +1,219 @@
+.container
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    margin-top: 50px
+    
+.container p 
+    margin-left: -500px
+    margin-bottom: 40px
+    font-weight: 600
+    font-size: 1.5rem
+    color: #42422c
+
+@media (min-width: 576px) and (max-width:768px)
+    .container p 
+        margin-left: -300px
+
+@media (max-width: 576px) 
+    .container p 
+        margin-left: 0px
+
+.user-data
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.user-data label 
+    margin: 15px 
+.user-data input 
+  
+    height: 37px  
+    width: 400px
+    max-width: 60vw
+    min-width: 215px
+    font-size: 1rem
+    font-style: italic
+    padding: 0px 12px
+    margin: 15px
+    border-radius: 13px
+    background-color: #ebecec
+    border-top: 1px solid #f3eded
+    border-left: 1px solid #f3eded
+    border-right: 1px solid #63606036
+    border-bottom: 1px solid #63606036
+    box-shadow: 3px 3px 5px #9b9998, -2px -2px 4px #dbdbdbcb
+    letter-spacing: 1px
+    font-size: 1rem
+    color: #292f49
+    cursor: pointer
+    outline: none
+
+.round 
+    display: flex
+    justify-content: center
+    align-items: center 
+    width: 40px
+    height: 40px
+    font-weight: bold
+    color: #386933
+    padding: 10px
+    border-radius: 50%
+    background-color: #b4b2ad
+    box-shadow: 4px 4px 5px #a39c9c, -4px -4px 4px #f6f6f5
+.buttons 
+    display: flex
+.user-data button 
+
+    height: 33px  
+    width: 160px
+    max-width: 30vw
+    font-size: 1rem
+    padding: 0px 12px
+    margin: 20px
+    border-radius: 13px
+    border-top: 2px solid #e7ece4
+    border-left: 2px solid #e7ece4
+    border-right: 2px solid #e7e3e336
+    border-bottom: 2px solid #e7e3e336
+    box-shadow: 4px 4px 5px #a39c9c, -4px -4px 4px #f6f6f5
+    letter-spacing: 1px
+    font-size: 1rem
+    color: #f5f5f1
+    font-weight: 600
+    cursor: pointer
+    outline: none
+    background-color: #55a737f2
+
+
+.user-data a
+    text-decoration: none
+
+.info-measure
+ 
+    width: 400px
+    height: 620px
+    margin-top: 5px
+    background-color: #5c5858
+    display: flex
+    align-items: center
+    justify-content: center
+    z-index: 1000000
+    box-shadow: 0px 0px 5px #5c5b5bf2
+
+@media (max-width: 500px)
+    .info-measure, .info
+        width: 270px !important
+        height: 800px
+    .fa-times-circle
+        margin-left: 100%
+
+
+        
+    
+.fa-times-circle
+    margin-left: 95%
+    font-size: 1.3rem
+    color: #42422c
+
+.info
+    width: 400px
+    margin-top: 10px
+    margin-right: 20px
+    position: absolute
+    top: 10%
+    left: 50%
+    transform: translateX(-50%)
+    display: none
+    max-width: 80vw
+
+@media (max-width: 420px)
+    .info
+        left: 8%
+        transform: translateX(-8%)
+    
+.add-rem-class
+    display: block
+
+    
+.info-measure h2 
+  
+   color: #fff
+   font-family: 'Playfair Display', sans-serif 
+   text-transform: uppercase 
+
+.measure-value
+    margin-right: 60px
+
+@media (max-width: 500px)
+    .measure-value
+        margin-right: 20px
+    .measure-value div:first-child 
+        margin-top: 20px !important
+    .measure-value div
+        margin-top: 50px !important
+  
+
+.measure-value div
+    width: 100px 
+    height: 100px 
+    background-color: #b8b0b0
+    box-shadow: 0px 0px 5px #fff
+    color: #79702d
+    font-weight: bold
+    margin-top:  20px
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%)
+    font-size: 1.5rem
+    display: flex
+    align-items: center
+    justify-content: center
+
+
+@media (max-width: 500px)
+    .measure-value div
+        width: 70px
+        height: 100px
+
+
+
+.measure-definition div 
+    width: 200px
+    height: 100px
+    border: 0px solid #aaa5a5
+    background-color: #ffffff00
+    margin-top: 20px
+    color: #fff
+    display: flex
+    flex-direction: column
+    justify-content: center
+    
+
+@media (max-width: 500px)
+    .measure-definition div
+        width: 120px
+        height: 180px
+        margin: 5px
+        
+
+@media (max-width: 500px)
+    .measure-definition div:first-child 
+        height: 95px !important
+    .measure-definition div:last-child
+        height: 70px !important
+        margin-top: 0px !important
+
+
+.measure-definition span 
+    font-weight: bold
+
+.measure-definition i 
+    font-size: 3rem
+
+.clickText
+    background-color: #f3f3f1 !important
+    border-top: 2px solid #8a858585 !important
+    border-left: 2px solid #8a858585 !important
+    border-right: 2px solid #f1eaea !important
+    border-bottom: 2px solid #fafafa !important
+    box-shadow: 1px 1px 3px #696996a6 inset, -3px -3px 5px #ffffff inset !important

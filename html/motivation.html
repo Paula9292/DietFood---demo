@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Paulina Różecka">
+    <meta name="description" content="Skuteczna dieta w prosty sposób! Kompleksowa aplikacja dietetyczna - co tydzień nowe, urozmaicone menu dostosowane do twoich potrzeb. Stała opieka dietetyka!">
+    <meta name="title" content="DietFood - aplikacja dietetyczna">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DietFood-wersja demo</title>
+    <script src="https://kit.fontawesome.com/2ab75aa2cf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/all/all.css">
+    <link rel="stylesheet" href="/css/motivation/motivation.css">
+</head>
+<body>
+    <div class="loader">   
+        <div class="lds-grid"> 
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div> 
+       </div>
+   
+   <nav>
+       <ul class='nav-ul'>
+           <li><img src="/img/DF.png"> </li>
+           <li><a href='/html/account.html'>Home</a></li>
+           <li><a href='/html/choose.html'>Twój <br>plan dietetyczny</a></li>
+           <li><a href='/html/measure.html'>Twoje <br>pomiary</a></li>
+           <li><a href='/html/motivation.html'>Twoja <br>motywacja</a></li>
+           <li><a href='/html/shop.html'>Zamów <br>dietę</a></li>
+       </ul>
+   
+       <div class="mobile">
+   
+            <img src="/img/DF.png">
+            <i class="fas fa-bars"></i>
+            <div class='mobile-box'>
+                 <ul class='nav-ul-mobile'>
+                    <li><a href='/html/account.html'>Home</a></li>
+                    <li><a href='/html/choose.html'>Twój <br>plan dietetyczny</a></li>
+                    <li><a href='/html/measure.html'>Twoje <br>pomiary</a></li>
+                    <li><a href='/html/motivation.html'>Twoja <br>motywacja</a></li>
+                    <li><a href='/html/shop.html'>Zamów <br>dietę</a></li>
+                 </ul>
+            </div>
+   
+       </div>
+   
+        <div> 
+            <i class="fas fa-user-circle"></i>
+            <div class='profile'>
+                <ul class="profile-ul">
+                     <li><i class="far fa-id-badge"></i> <a href="/html/profile.html">profil</a> </li>
+                     <li><i class="fas fa-history"></i> <a href='/html/history.html'>historia</a></li>
+                     <li><i class="fas fa-sign-out-alt"></i> <a href="/html/login.html">wyloguj </a> </li>
+                </ul>
+             </div>
+         </div>   
+   
+   </nav>
+    
+     <div class="round">
+         <i class="fas fa-info"></i>
+     </div>
+    
+     <div class='my-aim'>
+         <p>Cel</p>
+         <input type='text'> 
+     </div>
+
+     <div class='info-motivation-box'>
+         <i class="far fa-times-circle info-exit "></i>
+
+         <div class='info-motivation'>
+             <p>Ustal swój cel oraz motywacje, które przybliżą Cię do osiągnięcia tego celu.</p>
+       
+             <div class='container-info'> 
+                 <div class='aim-motiv'>
+                     <div><i class="fas fa-location-arrow"></i></div>
+                     <div><i class="fas fa-sort-amount-up-alt"></i></div>
+                 </div>
+        
+                 <div class='description'>
+                     <div> <span>Cel</span> powinien być realny do osiągnięcia np. nie zakładaj od razu,że schudniesz 10 kg w tydzień. Postaw sobie za cel 3kg w miesiąć. To i tak będzie sukces!
+                     </div>
+                     <div><span>Motywacje</span> powinny być personalne, dawać do zastanowienia. <span>Wypisz ok 5 rzeczy</span>, o którcyh będzisz myślec w chwilach słabości.
+                     </div>
+                 </div>
+             </div>
+       
+             <p>Przykład <br><hr><br>
+             Cel: Schudnąć 10kg w  3 miesiące.<br>
+             Motywacja: Utrzymanie sowjego organizmuj jak najdłużej w zdrowiu i dobrej kondycji aby mieć siłę na to aby poświęcać czas swoim dziecią - bawić się z nimi, być dla nich, wspierać ich. </p>
+           </div>
+        </div>
+</div>
+    
+
+<div class="container">
+  
+    <div class='motivation-dairy'> 
+          <div class="header-motivation">
+                 <p>moje motywacje</p>
+                 <div class="add-thing">
+                     <input type="text" name="thingToDo">
+                     <button>dodaj</button>
+                 </div>
+            </div>
+
+         <div class="thing-to-do">
+              <ul> </ul>
+
+              <div class="changeField">
+                     <p>Edytuj motywację</p>
+                     <input type='text'>
+                     <div class="change-buttons">
+                         <button class='ok'>zatwierdź</button>
+                         <button class='cancel'>anuluj</button>
+                    </div>
+              </div>
+
+              <div class='notes'>
+                  <label>notatki</label>
+                  <textarea></textarea>
+              </div>
+           </div>
+     </div>
+</div>
+
+<script src="/js/motivation.js"></script>
+</body>

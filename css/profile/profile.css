@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #7e7a6e59;
+  background: linear-gradient(180deg, #d6d4cc5b 5%, #a5a49f5b 50%, #d3d1cc5b 95%), url(/img/bg.jpg);
+  background-position: center center;
+}
+
+.one {
+  margin-bottom: 20px;
+}
+
+.user-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-data input {
+  height: 37px;
+  width: 400px;
+  max-width: 60vw;
+  font-size: 1rem;
+  font-style: italic;
+  padding: 0px 12px;
+  margin: 10px;
+  border-radius: 13px;
+  background-color: #ebecec;
+  border-top: 1px solid #f3eded;
+  border-left: 1px solid #f3eded;
+  border-right: 1px solid #63606036;
+  border-bottom: 1px solid #63606036;
+  box-shadow: 3px 3px 5px #9b9998, -2px -2px 4px #dbdbdbcb;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  color: #292f49;
+  cursor: pointer;
+  outline: none;
+}
+
+.clickText {
+  background-color: #f3f3f1 !important;
+  border-top: 2px solid #8a858585 !important;
+  border-left: 2px solid #8a858585 !important;
+  border-right: 2px solid #f1eaea !important;
+  border-bottom: 2px solid #fafafa !important;
+  box-shadow: 1px 1px 3px #696996a6 inset, -3px -3px 5px #ffffff inset !important;
+}
+
+button {
+  height: 33px;
+  width: 200px;
+  max-width: 30vw;
+  font-size: 1rem;
+  font-style: italic;
+  padding: 0px 12px;
+  margin: 10px;
+  margin-bottom: 50px;
+  border-radius: 13px;
+  border-top: 2px solid #dfb967;
+  border-left: 2px solid #dfb967;
+  border-right: 2px solid #63606036;
+  border-bottom: 2px solid #63606036;
+  box-shadow: 4px 4px 4px #aaa9a5, -4px -4px 4px #f5f5ee;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  color: #42422c;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  background-color: #dbad4ae8;
+}
+
+.container p {
+  padding-right: 500px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #42422c;
+}
+
+@media (max-width: 768px) {
+  .container p {
+    padding-right: 0px;
+  }
+}
+
+.clickButton {
+  background-color: #deb45af2  !important;
+  box-shadow: 0px 0px 0px #645629, 0px 0px 0px #d5d5d2;
+}
+/*# sourceMappingURL=profile.css.map */

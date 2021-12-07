@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Paulina Różecka">
+    <meta name="description" content="Skuteczna dieta w prosty sposób! Kompleksowa aplikacja dietetyczna - co tydzień nowe, urozmaicone menu dostosowane do twoich potrzeb. Stała opieka dietetyka!">
+    <meta name="title" content="DietFood - aplikacja dietetyczna">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DietFood-aplikacja dietetyczna</title>
+    <script src="https://kit.fontawesome.com/2ab75aa2cf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style/style.css">
+</head>
+<body>
+    <div class="loader">   
+        <div class="lds-grid"> 
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div> 
+       </div>
+   
+ 
+
+<div class= 'calculator'>
+
+     <div class='data'>
+         <p class='title'>Oblicz swoje </p>
+         <span>BMI</span>
+         <hr>
+     </div>
+
+     <div class='elements'>   
+         <input type="number" class="weight" name="weight" placeholder="Waga (kg)"> 
+         <p class= weightAlert>  </p>
+
+         <input type="number" step=0.01 claSS="height" name="height" placeholder="Wzrost (m)">
+         <p class= heightAlert> </p>
+
+         <div class='alert'></div>
+         <div class="sex"><button class="sex1">k</button>
+
+         <button class="sex2">m</button></div> 
+         <p class= sexAlert> </p>
+ 
+         <button class="calculate">oblicz</button> </p>
+
+     </div>
+    
+</div>
+
+
+<div class="result">
+     <i class="fas fa-times"></i>
+     <div class="bmiResult">
+          <div class="circle"></div>
+         <p>19,35</p>
+     </div>
+
+    <div class="bmiExplain">
+         <p>twoje BMI oznacza</p> <span>prawidłową masę ciałą</span>
+    </div>
+
+     <div class="bmiIndex">
+         <div class="rectangle1 style" >18.5 - 24.99</div>
+         <div class="rectangle2 style"> 25 - 29.99</div>
+         <div class="rectangle3 style">30 - 34.99</div>
+     </div>
+
+     <div class="toNext">
+         <p>co możesz<br> dla siebie zrobić?</p>
+         <button><a href="/html/login.html">sprawdz!</a></button>
+     </div>
+    
+</div>
+ 
+<script src="/js/main.js"></script>
+
+</body>
+</html>
