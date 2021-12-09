@@ -1,4 +1,3 @@
-
 let userIcon;
 let platform;
 let showBurger;
@@ -43,20 +42,13 @@ window.addEventListener('click', addRemove);
 window.addEventListener('click', showBurgerMenu);
 window.addEventListener('resize', () => {remove(burgerMenu)});
 addThingBtn.addEventListener('click',addNewTask);
-addThingArea.addEventListener('keyup', enterKey);
+window.addEventListener('keyup', enterKey);
 ulList.addEventListener('click', iconClick);
-okBtn.addEventListener('click',(e) => {
-    if (changeField.value !== ''){
-        edit.firstChild.textContent = changeField.value ; popup.style.display="none"
-    }});
-cancelBtn.addEventListener('click',() => {popup.style.display="none";});
+okBtn.addEventListener('click', okChange);
+cancelBtn.addEventListener('click',() => {popup.style.display="none";popup.style.visibility="hidden"});
 infoExit.addEventListener('click', ()=>{ infoMotivation.style.display="none"});
 showInfo.addEventListener('click', ()=>{ infoMotivation.style.display="block"});
 }
-
-
-
-
 
 
 
@@ -119,11 +111,21 @@ function addNewTask () {
 
 
 // enter - add New Motivation
+
+
+
 function enterKey(e){
     if(e.key==='Enter'){
-        addNewTask()
+        
+        let targetElement = e.target
+
+        if (targetElement == addThingArea){
+            addNewTask();
+        }else if (targetElement == changeField ){
+            okChange();
+    }}
     }
-}
+
 
 
 function iconClick(e){
@@ -132,23 +134,24 @@ function iconClick(e){
     }else if (e.target.matches('.fa-edit')){
         edit = e.target.closest('li');
         popup.style.display="flex"; 
+        popup.style.visibility="visible"
         changeField.value= edit.firstChild.textContent;
-       
 
     }
 }
 
+function okChange () {
+    if (changeField.value !== ''){
+        edit.firstChild.textContent = changeField.value ; popup.style.display="none"; popup.style.visibility="hidden"
+    }}
 
 
-
-    
 
 
 window.onload = function(){ document.querySelector(".loader").style.display = "none"; document.querySelector(".lds-grid ").style.display = "none";}
 
 document.addEventListener('DOMContentLoaded', main);
+
     
-
-
 
 
