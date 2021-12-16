@@ -8,7 +8,7 @@ DietFood is a tool to make diet by yourself.
 
 # Download
 
-To be able to use the project, please download git clone.
+To be able to use the project, please download git clone https://github.com/Paula9292/DietFood---demo.git
 
 If you want run this app by your code editor please start from index.htlm.
 
