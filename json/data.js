@@ -9,21 +9,21 @@ first_day: {
 
          firstOption: {
 
-             picture: " /img/granola.jpg",
+             picture: " /DietFood---demo/img/granola.jpg",
              dish: "owsianka z owocami"
 
         },
 
          secondOption: {
 
-             picture: "/img/sandwi.jpg",
+             picture: "/DietFood---demo/img/sandwi.jpg",
              dish: "kanapka z wędliną i warzywami"
 
         },
 
         thirdOption: {
 
-             picture: "/img/eggs.jpg",
+             picture: "/DietFood---demo/img/eggs.jpg",
              dish: "jajecznica z pomidorami"
 
 
@@ -40,21 +40,21 @@ first_day: {
 
         firstOption: {
 
-            picture:"/img/DSC_0092-01.jpeg",
+            picture:"/DietFood---demo/img/DSC_0092-01.jpeg",
             dish: "muffin warzywny"
 
        },
 
         secondOption: {
 
-            picture:"/img/fruitSalad.jpg" ,
+            picture:"/DietFood---demo/img/fruitSalad.jpg" ,
             dish: "sałatka owocowa"
 
        },
 
        thirdOption: {
 
-            picture: "/img/spinach.jpg" ,
+            picture: "/DietFood---demo/img/spinach.jpg" ,
             dish: "sałatka"
 
 
@@ -71,21 +71,21 @@ first_day: {
 
        firstOption: {
 
-           picture:"/img/pasta.jpg",
+           picture:"/DietFood---demo/img/pasta.jpg",
            dish: "makaron z pesto"
 
       },
 
        secondOption: {
 
-           picture:"/img/salmon.jpg" ,
+           picture:"/DietFood---demo/img/salmon.jpg" ,
            dish: "łosoś z ryżem"
 
       },
 
       thirdOption: {
 
-           picture: "/img/soup.jpg" ,
+           picture: "/DietFood---demo/img/soup.jpg" ,
            dish: "gulasz"
 
 
@@ -102,21 +102,21 @@ first_day: {
 
        firstOption: {
 
-           picture:"/img/tomato.jpg",
+           picture:"/DietFood---demo/img/tomato.jpg",
            dish: "pomidory z mozarellą"
 
       },
 
        secondOption: {
 
-           picture:"/img/cheese.jpg" ,
+           picture:"/DietFood---demo/img/cheese.jpg" ,
            dish: "twaróg z warzywami"
 
       },
 
       thirdOption: {
 
-           picture: "/img/tuna.jpg" ,
+           picture: "/DietFood---demo/img/tuna.jpg" ,
            dish: "sałatka z tuńczykiem"
 
 

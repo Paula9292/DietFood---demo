@@ -99,7 +99,7 @@
 body {
   position: relative;
   height: 100vh;
-  background: linear-gradient(91deg, #a3a19a42 10%, #83817c78 50%, #6f6e6b4a 75%), url(/img/fruit.jpg);
+  background: linear-gradient(91deg, #a3a19a42 10%, #83817c78 50%, #6f6e6b4a 75%), url(/DietFood---demo/img/fruit.jpg);
   background-position: center center;
   background-size: cover;
   font-family: 'Montserrat', sans-serif;
