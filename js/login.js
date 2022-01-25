@@ -49,7 +49,7 @@ function clearError(input, msg){
 
  function nextPage() {
         if (inputs[0] !=='' && inputs[1].value !=='') {
-            location.href='/html/account.html';
+            location.href='/DietFood---demo//html/account.html';
         }
     }
     
